@@ -13,6 +13,8 @@ function Navbar() {
         </Link >
         <Link to="profile"><li>Profile</li>
         </Link>
+        <Link to="createPost"><li>CreatPost</li>
+        </Link>
       </ul>
     </div>
   )

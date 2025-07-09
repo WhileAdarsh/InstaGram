@@ -1,0 +1,57 @@
+.createPost {
+  max-width: 500px;
+  margin: 10px auto;
+  border: 1px solid rgb(173, 173, 173);
+  border-radius: 5px;
+}
+
+.main-div {
+  border-top: 1px solid rgb(173, 173, 173);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+#post-btn {
+  border: none;
+  color: #339ce3;
+  background: none;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.details {
+  border-top: 1px solid rgb(173, 173, 173);
+  padding-top: 10px;
+}
+
+.profile-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 0;
+}
+
+.profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+textarea {
+  width: 90%;
+  border: none;
+  outline: none;
+  resize: none;
+  padding: 5px;
+  font-size: 14px;
+}
+
+#output {
+  width: 300px;
+  border: none;
+  outline: none;
+  margin-top: 5px;
+}
